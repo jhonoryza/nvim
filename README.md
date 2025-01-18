@@ -8,7 +8,16 @@ clone this repo
 git clone git@github.com:jhonoryza/nvim.git
 ```
 
+clone packer
+
+```bash
+git clone --depth 1 https://github.com/wbthomason/packer.nvim\
+ ~/.local/share/nvim/site/pack/packer/start/packer.nvim
+```
+
 go to `cd ~/.config/nvim/ && nvim .`
+
+then run `:PackerSync` exit then reopen `nvim .`
 
 ## some keybinding
 
