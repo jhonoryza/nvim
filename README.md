@@ -4,6 +4,12 @@ create a directory in `~/.config/nvim`
 
 clone this repo
 
+```bash
+git clone git@github.com:jhonoryza/nvim.git
+```
+
+go to `cd ~/.config/nvim/ && nvim .`
+
 ## some keybinding
 
 - `leader` is using space
