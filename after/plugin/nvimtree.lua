@@ -32,7 +32,6 @@ require("nvim-tree").setup({
             "/node_modules",
             "/target",
             "/vendor",
-            ".git"
         },
     },
     sort = {
@@ -48,7 +47,6 @@ require("nvim-tree").setup({
     filters = {
         dotfiles = false,
         custom = {
-            '.git',
             'node_modules',
             'vendor'
         },
