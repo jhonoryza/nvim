@@ -1,4 +1,8 @@
-vim.opt.guicursor = ""
+vim.opt.guicursor = {
+  "n-v-c:block",       -- Blok di normal, visual, dan command mode
+  "i-ci:ver25",        -- Garis vertikal di insert dan command insert mode
+  "r-cr:hor20",        -- Garis horizontal di replace mode
+}
 vim.opt.nu = true
 vim.opt.relativenumber = true
 

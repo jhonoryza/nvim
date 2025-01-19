@@ -22,11 +22,16 @@ then run `:PackerSync` exit then reopen `nvim .`
 ## some keybinding
 
 - `leader` is using space
+- `leader+pf` to find all files
+- `ctrl+p` find project files
 - `leader+gs` to interact with git
-- `leader+pf` to find files
 - `leader+pws` to search word
 - `leader+ps` to grep string
-- `ctrl+p` git find file
+- `leader+e` open sidebar
+- `leader+q` close sidebar
+- `leader+x` close buffer
+- `Tab` cycle to next buffer
+- `Shift+Tab` cycle to prev buffer
 
 ## lsp keybinding
 
