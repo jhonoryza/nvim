@@ -9,6 +9,7 @@ return require('packer').startup(function(use)
         requires = { { 'nvim-lua/plenary.nvim' } }
     }
 
+    use { "rebelot/kanagawa.nvim" }
     use {
         "ellisonleao/gruvbox.nvim",
         name = "gruvbox",

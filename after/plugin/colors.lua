@@ -1,6 +1,7 @@
 function ColorMyPencils()
 	--color = color or "rose-pine-moon"
-	vim.cmd.colorscheme("gruvbox")
+	--vim.cmd.colorscheme("gruvbox")
+	vim.cmd.colorscheme("kanagawa")
 
 	vim.api.nvim_set_hl(0, "Normal", { bg = "none" })
 	vim.api.nvim_set_hl(0, "NormalFloat", { bg = "none" })
