@@ -17,7 +17,7 @@ git clone --depth 1 https://github.com/wbthomason/packer.nvim\
 
 go to `cd ~/.config/nvim/ && nvim .`
 
-then run `:PackerSync` exit then reopen `nvim .`
+then run `:PackerCompile` and `:PackerSync` exit then reopen `nvim .`
 
 ## some keybinding
 
@@ -70,7 +70,25 @@ then run `:PackerSync` exit then reopen `nvim .`
 ## adjust default theme
 
 - edit this file `~/.config/nvim/after/plugin/colors.lua`
+- to apply run `:w` and `:so`
 
 ## treesitter
 
 - see this file `~/.config/nvim/after/plugin/treesitter.lua`
+
+## tab feature
+
+- see this file `~/.config/nvim/after/plugin/bufferline.lua`
+
+## sidebar folder navigation
+
+- see this file `~/.config/nvim/after/plugin/nvimtree.lua`
+
+### Security
+
+If you've found a bug regarding security please mail [jardik.oryza@gmail.com](mailto:jardik.oryza@gmail.com) instead of
+using the issue tracker.
+
+## License
+
+The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
