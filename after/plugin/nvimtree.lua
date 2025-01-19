@@ -18,7 +18,7 @@ require("nvim-tree").setup({
         open_file = {
             quit_on_open = false, -- Jangan tutup NvimTree saat file dibuka
             window_picker = {
-                enable = true,
+                enable = false,
             },
         },
     },
