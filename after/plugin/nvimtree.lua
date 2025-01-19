@@ -1,6 +1,10 @@
 vim.keymap.set("n", "<leader>e", vim.cmd.NvimTreeFocus)
 vim.keymap.set("n", "<leader>q", vim.cmd.NvimTreeToggle)
 
+-- Mapping untuk berpindah antar split
+vim.keymap.set('n', '<leader>h', '<C-w>h', { noremap = true, silent = true })
+vim.keymap.set('n', '<leader>l', '<C-w>l', { noremap = true, silent = true })
+
 -- disable netrw at the very start of your init.lua
 vim.g.loaded_netrw = 1
 vim.g.loaded_netrwPlugin = 1

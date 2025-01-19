@@ -36,6 +36,10 @@ then run `:PackerCompile` and `:PackerSync` exit then reopen `nvim .`
 - `ysiw"` surround double quote
 - `cs"'` change double quote to single quote
 - `cs'"` change single quote to double quote
+- `leader+sv` vertical split
+- `leader+mv` move buffer to right split
+- `leader+l` switch to right
+- `leader+h` switch to left
 
 ## lsp keybinding
 

@@ -66,3 +66,9 @@ vim.keymap.set("n", "<leader><leader>", function()
     vim.cmd("so")
 end)
 
+-- Split vertikal dengan buffer aktif
+vim.api.nvim_set_keymap('n', '<leader>sv', ':vsplit<CR>', { noremap = true, silent = true })
+
+-- Pindah buffer ke split kanan
+vim.api.nvim_set_keymap('n', '<leader>mv', ':wincmd L<CR>', { noremap = true, silent = true })
+
