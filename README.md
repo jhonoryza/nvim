@@ -32,6 +32,10 @@ then run `:PackerCompile` and `:PackerSync` exit then reopen `nvim .`
 - `leader+x` close buffer
 - `Tab` cycle to next buffer
 - `Shift+Tab` cycle to prev buffer
+- `ysiw'` surround single quote
+- `ysiw"` surround double quote
+- `cs"'` change double quote to single quote
+- `cs'"` change single quote to double quote
 
 ## lsp keybinding
 
