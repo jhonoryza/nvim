@@ -29,6 +29,7 @@ lsp.setup_servers({
     'cmake',
     'clangd',
     'bashls',
+    'tailwindcss',
 })
 
 local cmp = require('cmp')
@@ -91,5 +92,6 @@ require('mason-lspconfig').setup({
         'cmake',
         'clangd',
         'bashls',
+        'tailwindcss',
     }
 })
