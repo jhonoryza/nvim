@@ -42,10 +42,10 @@ then run `:PackerCompile` and `:PackerSync` exit then reopen `nvim .`
 - `ctrl+h` signature_help
 - `gd` go to definition
 - `K` hover
-- `leader+vrn` rename
-- `leader+vrr` references
-- `leader+vca` code action 
-- `leader+vws` workspace symbol
+- `leader+vr` rename
+- `leader+ve` references
+- `leader+vc` code action 
+- `leader+vs` workspace symbol
 - `leader+vd` open in float
 
 ## available lsp
@@ -69,8 +69,12 @@ then run `:PackerCompile` and `:PackerSync` exit then reopen `nvim .`
 
 ## adjust default theme
 
-- edit this file `~/.config/nvim/after/plugin/colors.lua`
+- to add new theme edit this file `~/.config/nvim/after/plugin/colors.lua`
 - to apply run `:w` and `:so`
+- available colors
+  - kanagawa (default)
+  - gruvbox
+- live change color run `:lua theme('gruvbox')`
 
 ## treesitter
 
