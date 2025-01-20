@@ -11,6 +11,9 @@ vim.g.loaded_netrwPlugin = 1
 
 -- OR setup with some options
 require("nvim-tree").setup({
+    update_focused_file = {
+        enable = true,
+    },
     actions = {
         change_dir = {
             enable = false, -- Mencegah pindah ke direktori parent
