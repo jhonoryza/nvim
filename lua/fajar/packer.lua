@@ -87,4 +87,8 @@ return require('packer').startup(function(use)
             })
         end
     })
+
+    use {
+        'rmagatti/auto-session',
+    }
 end)
