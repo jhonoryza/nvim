@@ -7,7 +7,7 @@ vim.keymap.set('n', ';s', function()
   builtin.grep_string({ search = vim.fn.input("Grep > ") });
 end)
 
-vim.keymap.set('n', ';o', builtin.buffer, { desc = 'Lists of open buffers' })
+vim.keymap.set('n', ';o', builtin.buffers, { desc = 'Lists of open buffers' })
 vim.keymap.set('n', ';r', builtin.oldfiles, { desc = 'Recent Files' })
 vim.keymap.set('n', ';;', builtin.resume, { desc = 'Resume the previous picker' })
 vim.keymap.set('n', ';t', function()
