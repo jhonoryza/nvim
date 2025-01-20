@@ -1,7 +1,7 @@
 vim.keymap.set("n", "<leader>e", vim.cmd.NvimTreeFocus)
 vim.keymap.set("n", "<leader>q", vim.cmd.NvimTreeToggle)
 
--- Mapping untuk berpindah antar split
+-- Mapping untuk berpindah antar nvimtree dan buffer
 vim.keymap.set('n', '<leader>h', '<C-w>h', { noremap = true, silent = true })
 vim.keymap.set('n', '<leader>l', '<C-w>l', { noremap = true, silent = true })
 

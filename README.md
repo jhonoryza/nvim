@@ -28,25 +28,33 @@ then run `:PackerCompile` and `:PackerSync` exit then reopen `nvim .`
 ## some keybinding
 
 - `leader` is using space
-- `leader+pf` to find all files
-- `ctrl+p` find project files
+- `;p` to find all files
+- `;f` find project files
 - `leader+gs` to interact with git
-- `leader+pws` to search word
-- `leader+ps` to find string
-- `leader+pr` to find recent files
+- `;s` to find word
+- `;r` to find recent files
+- `;t` to find list all func and variable
+- `;b` to open file browser
+- `;o` to list open buffer
+- `;;` to resume previous picker
 - `leader+e` open sidebar
 - `leader+q` close sidebar
 - `leader+x` close buffer
+- `ctrl+c` escape when in insert mode
+- `ss` split vertical
+- `sv` close horizontal
+- `sl` move to right split
+- `sh` move to left split
+- `sj` move to down split
+- `sk` move to up split
 - `Tab` cycle to next buffer
 - `Shift+Tab` cycle to prev buffer
 - `ysiw'` surround single quote
 - `ysiw"` surround double quote
 - `cs"'` change double quote to single quote
 - `cs'"` change single quote to double quote
-- `leader+sv` vertical split
-- `leader+mv` move buffer to right split
-- `leader+l` switch to right
-- `leader+h` switch to left
+- `leader+l` switch to right nvimtree
+- `leader+h` switch to left nvimtree
 
 ## lsp keybinding
 
