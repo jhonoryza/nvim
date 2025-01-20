@@ -1,3 +1,18 @@
+local default_shell
+
+if vim.loop.os_uname().sysname == "Windows_NT" then
+  default_shell = os.getenv('COMSPEC') or 'powershell'
+else
+  default_shell = os.getenv('SHELL')
+    or vim.fn.exepath('fish')
+    or vim.fn.exepath('zsh')
+    or vim.fn.exepath('bash')
+    or '/bin/sh'
+end
+
+vim.o.shell = default_shell
+vim.opt.shellcmdflag = '-i -c'
+
 vim.opt.guicursor = {
   "n-v-c:block",       -- Blok di normal, visual, dan command mode
   "i-ci:ver25",        -- Garis vertikal di insert dan command insert mode

@@ -15,6 +15,12 @@ git clone --depth 1 https://github.com/wbthomason/packer.nvim\
  ~/.local/share/nvim/site/pack/packer/start/packer.nvim
 ```
 
+install ripgrep
+
+```bash
+brew install ripgrep
+```
+
 go to `cd ~/.config/nvim/ && nvim .`
 
 then run `:PackerCompile` and `:PackerSync` exit then reopen `nvim .`
@@ -26,7 +32,8 @@ then run `:PackerCompile` and `:PackerSync` exit then reopen `nvim .`
 - `ctrl+p` find project files
 - `leader+gs` to interact with git
 - `leader+pws` to search word
-- `leader+ps` to grep string
+- `leader+ps` to find string
+- `leader+pr` to find recent files
 - `leader+e` open sidebar
 - `leader+q` close sidebar
 - `leader+x` close buffer
