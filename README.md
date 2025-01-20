@@ -54,14 +54,15 @@ then run `:PackerCompile` and `:PackerSync` exit then reopen `nvim .`
 - `ctrl+y` confirm
 - `ctrl+n` next item
 - `ctrl+p` prev item
-- `ctrl+h` signature_help
-- `gd` go to definition
-- `K` hover
-- `leader+vr` rename
-- `leader+ve` references
-- `leader+vc` code action 
-- `leader+vs` workspace symbol
-- `leader+vd` open in float
+- `leader+lh` signature_help
+- `leader+ld` go to definition
+- `leader+lk` hover
+- `leader+lf` format
+- `leader+lr` rename
+- `leader+le` references
+- `leader+lc` code action 
+- `leader+ls` workspace symbol
+- `leader+lg` open in float
 
 ## available lsp
 
