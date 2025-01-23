@@ -30,6 +30,7 @@ lsp.setup_servers({
     'clangd',
     'bashls',
     'tailwindcss',
+    'ast_grep'
 })
 
 -- Menyiapkan CMP dan pengaturan lainnya
@@ -102,6 +103,7 @@ require('mason-lspconfig').setup({
         'clangd',
         'bashls',
         'tailwindcss',
+        'ast_grep'
     }
 })
 
