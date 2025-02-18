@@ -73,8 +73,8 @@ return require('packer').startup(function(use)
     }
 
     use {
-        'akinsho/bufferline.nvim', 
-        tag = "*", 
+        'akinsho/bufferline.nvim',
+        tag = "*",
         requires = 'nvim-tree/nvim-web-devicons'
     }
 
@@ -101,5 +101,15 @@ return require('packer').startup(function(use)
     use {
         "lewis6991/gitsigns.nvim",
         requires = { "nvim-lua/plenary.nvim" },
+    }
+
+    -- Indent Guides
+    use {
+        "lukas-reineke/indent-blankline.nvim",
+    }
+
+    -- more theme
+    use {
+        "craftzdog/solarized-osaka.nvim",
     }
 end)

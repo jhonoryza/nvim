@@ -15,7 +15,7 @@ vim.opt.shellcmdflag = '-i -c'
 
 vim.opt.guicursor = {
   "n-v-c:block",       -- Blok di normal, visual, dan command mode
-  "i-ci:ver25",        -- Garis vertikal di insert dan command insert mode
+  "i-ci:hor20",        -- Garis horizontal di insert dan command insert mode
   "r-cr:hor20",        -- Garis horizontal di replace mode
 }
 vim.opt.nu = true
@@ -28,7 +28,7 @@ vim.opt.expandtab = true
 
 vim.opt.smartindent = true
 
-vim.opt.wrap = false
+vim.opt.wrap = true
 
 vim.opt.swapfile = false
 vim.opt.backup = false
@@ -46,5 +46,5 @@ vim.opt.isfname:append("@-@")
 
 vim.opt.updatetime = 50
 
-vim.opt.colorcolumn = "80"
+-- vim.opt.colorcolumn = "80"
 
