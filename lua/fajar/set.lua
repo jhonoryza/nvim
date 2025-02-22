@@ -15,7 +15,7 @@ vim.opt.shellcmdflag = '-i -c'
 
 vim.opt.guicursor = {
   "n-v-c:block",       -- Blok di normal, visual, dan command mode
-  "i-ci:hor20",        -- Garis horizontal di insert dan command insert mode
+  "i-ci:ver20",        -- Garis horizontal di insert dan command insert mode
   "r-cr:hor20",        -- Garis horizontal di replace mode
 }
 vim.opt.nu = true

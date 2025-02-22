@@ -112,4 +112,9 @@ return require('packer').startup(function(use)
     use {
         "craftzdog/solarized-osaka.nvim",
     }
+
+    -- codeium
+    use {
+        'Exafunction/codeium.vim',
+    }
 end)
