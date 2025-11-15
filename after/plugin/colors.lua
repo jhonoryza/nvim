@@ -1,6 +1,6 @@
 function theme(color)
-    color = "solarized-osaka"
-    -- color = color or "kanagawa"
+    -- color = "solarized-osaka"
+    color = color or "kanagawa"
     -- color = color or "gruvbox"
     vim.cmd.colorscheme(color)
 
