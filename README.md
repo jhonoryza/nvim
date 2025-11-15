@@ -41,12 +41,12 @@ then run `:PackerCompile` and `:PackerSync` exit then reopen `nvim .`
 - `leader+q` close sidebar
 - `leader+x` close buffer
 - `ctrl+c` escape when in insert mode
-- `ss` split vertical
-- `sv` close horizontal
-- `sl` move to right split
-- `sh` move to left split
-- `sj` move to down split
-- `sk` move to up split
+- `sv` split vertical
+- `sh` split horizontal
+- `ml` move to right split
+- `mh` move to left split
+- `mj` move to down split
+- `mk` move to up split
 - `Tab` cycle to next buffer
 - `Shift+Tab` cycle to prev buffer
 - `ysiw'` surround single quote

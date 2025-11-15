@@ -41,13 +41,13 @@ vim.keymap.set("n", "<leader><leader>", function()
 end)
 
 -- Split window
-vim.keymap.set("n", "ss", ":vsplit<Return>", opts)
-vim.keymap.set("n", "sv", ":split<Return>", opts)
+vim.keymap.set("n", "sv", ":vsplit<Return>", opts)
+vim.keymap.set("n", "sh", ":split<Return>", opts)
 -- Move window
-vim.keymap.set("n", "sh", "<C-w>h")
-vim.keymap.set("n", "sk", "<C-w>k")
-vim.keymap.set("n", "sj", "<C-w>j")
-vim.keymap.set("n", "sl", "<C-w>l")
+vim.keymap.set("n", "mh", "<C-w>h")
+vim.keymap.set("n", "mk", "<C-w>k")
+vim.keymap.set("n", "mj", "<C-w>j")
+vim.keymap.set("n", "ml", "<C-w>l")
 
 -- Resize window
 vim.keymap.set("n", "<C-w><left>", "<C-w><")
