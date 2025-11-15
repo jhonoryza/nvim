@@ -65,7 +65,7 @@ then run `:PackerCompile` and `:PackerSync` exit then reopen `nvim .`
 - `leader+lh` signature_help
 - `leader+ld` go to definition
 - `leader+lk` hover
-- `leader+lf` format
+- `leader+ff` format
 - `leader+lr` rename
 - `leader+le` references
 - `leader+lc` code action 
